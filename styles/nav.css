@@ -5,6 +5,7 @@ nav {
 
   line-height: 0;
   padding-block: 20px;
+
 }
 
 nav ul {
@@ -14,6 +15,7 @@ nav ul {
   gap: 24px;
 
   padding-block: 8px;
+
 }
 
 nav ul li:last-child img {

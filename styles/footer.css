@@ -8,3 +8,28 @@ footer {
 footer span:nth-child(1) {
   margin-right: auto;
 }
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+@media (width < 80em) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  footer > span {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+
+  }
+  .footer-links {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+
+}
